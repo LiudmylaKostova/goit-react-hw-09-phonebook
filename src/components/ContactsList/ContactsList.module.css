@@ -1,0 +1,18 @@
+.ul {
+  width: 300px;
+  margin: 0 auto;
+}
+.li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.name {
+  margin-right: 20px;
+  font-weight: 500;
+}
+.number {
+  margin-right: 20px;
+  font-weight: 500;
+}

@@ -1,0 +1,112 @@
+.container {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.65);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  box-shadow: 10px 10px 15px rgb(150, 56, 150);
+}
+.div {
+  padding: 15px;
+}
+
+.navList {
+  display: flex;
+  border-bottom: 2px solid violet;
+}
+.navListItem:not(:last-child) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.navListItem {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.navLink {
+  color: blue;
+  text-decoration: none;
+}
+.navlink--active,
+.navLink:hover,
+.navLink:focus {
+  font-weight: bold;
+  color: rgb(38, 0, 128);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px 30px;
+  text-align: center;
+  border: 2px solid violet;
+  border-radius: 5px;
+  box-shadow: 5px 0 8px rgb(150, 56, 150);
+  width: 300px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  color: blue;
+  font-weight: 500;
+}
+.input {
+  margin-bottom: 20px;
+  padding: 5px;
+  height: 30px;
+  border: 1px solid violet;
+  border-radius: 5px;
+}
+.input:focus,
+.input:hover {
+  border: 2px solid violet;
+}
+.button {
+  margin: 0 auto;
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid violet;
+  cursor: pointer;
+  color: blue;
+  font-weight: 600;
+  padding: 12px 24px;
+}
+.button:hover,
+.button:focus {
+  background-color: violet;
+  color: white;
+}
+.button:hover:disabled,
+.button:focus:disabled {
+  color: blue;
+}
+.button:disabled {
+  background-color: rgba(0, 0, 0, 0.44);
+}
+.title {
+  text-align: center;
+  margin-top: 0px;
+  color: blue;
+}
+.logoutButton {
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid violet;
+  cursor: pointer;
+  color: blue;
+  font-weight: 600;
+  padding: 8px 16px;
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.logoutButton:hover,
+.logoutButton:focus {
+  background-color: violet;
+  color: white;
+}
+.span {
+  color: blue;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
